@@ -17,6 +17,11 @@
 		4A5E36221ED430E200D60C12 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E36211ED430E200D60C12 /* _____UITests.m */; };
 		4A5E36321ED4312D00D60C12 /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E36311ED4312D00D60C12 /* AuthcodeView.m */; };
 		4A5E36351ED4316D00D60C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5E36341ED4316D00D60C12 /* CoreGraphics.framework */; };
+		958AC1511EEE40F200119E74 /* Act_CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AC14B1EEE40F200119E74 /* Act_CommentCell.m */; };
+		958AC1521EEE40F200119E74 /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AC14C1EEE40F200119E74 /* CommentTableViewCell.m */; };
+		958AC1531EEE40F200119E74 /* DtCaculateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AC14E1EEE40F200119E74 /* DtCaculateTool.m */; };
+		958AC1541EEE40F200119E74 /* DtListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AC14F1EEE40F200119E74 /* DtListCell.m */; };
+		958AC1551EEE40F200119E74 /* WeiboCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AC1501EEE40F200119E74 /* WeiboCommentCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,13 @@
 		4A5E36301ED4312D00D60C12 /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
 		4A5E36311ED4312D00D60C12 /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
 		4A5E36341ED4316D00D60C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		958AC14A1EEE40F200119E74 /* Act_CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Act_CommentCell.h; sourceTree = "<group>"; };
+		958AC14B1EEE40F200119E74 /* Act_CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Act_CommentCell.m; sourceTree = "<group>"; };
+		958AC14C1EEE40F200119E74 /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
+		958AC14D1EEE40F200119E74 /* DtCaculateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DtCaculateTool.h; sourceTree = "<group>"; };
+		958AC14E1EEE40F200119E74 /* DtCaculateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DtCaculateTool.m; sourceTree = "<group>"; };
+		958AC14F1EEE40F200119E74 /* DtListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DtListCell.m; sourceTree = "<group>"; };
+		958AC1501EEE40F200119E74 /* WeiboCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboCommentCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,7 @@
 		4A5E35FB1ED430E200D60C12 /* 图形验证码 */ = {
 			isa = PBXGroup;
 			children = (
+				958AC1491EEE40F200119E74 /* Test */,
 				4A5E35FF1ED430E200D60C12 /* AppDelegate.h */,
 				4A5E36001ED430E200D60C12 /* AppDelegate.m */,
 				4A5E36021ED430E200D60C12 /* ViewController.h */,
@@ -163,6 +176,20 @@
 				4A5E36341ED4316D00D60C12 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		958AC1491EEE40F200119E74 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				958AC14A1EEE40F200119E74 /* Act_CommentCell.h */,
+				958AC14B1EEE40F200119E74 /* Act_CommentCell.m */,
+				958AC14C1EEE40F200119E74 /* CommentTableViewCell.m */,
+				958AC14D1EEE40F200119E74 /* DtCaculateTool.h */,
+				958AC14E1EEE40F200119E74 /* DtCaculateTool.m */,
+				958AC14F1EEE40F200119E74 /* DtListCell.m */,
+				958AC1501EEE40F200119E74 /* WeiboCommentCell.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,8 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958AC1511EEE40F200119E74 /* Act_CommentCell.m in Sources */,
+				958AC1521EEE40F200119E74 /* CommentTableViewCell.m in Sources */,
+				958AC1551EEE40F200119E74 /* WeiboCommentCell.m in Sources */,
 				4A5E36041ED430E200D60C12 /* ViewController.m in Sources */,
+				958AC1541EEE40F200119E74 /* DtListCell.m in Sources */,
 				4A5E36321ED4312D00D60C12 /* AuthcodeView.m in Sources */,
+				958AC1531EEE40F200119E74 /* DtCaculateTool.m in Sources */,
 				4A5E36011ED430E200D60C12 /* AppDelegate.m in Sources */,
 				4A5E35FE1ED430E200D60C12 /* main.m in Sources */,
 			);
